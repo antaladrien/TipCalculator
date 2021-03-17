@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Színkeverő</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" medium="screen" href="style.css" />
+<script src="main.js"></script>
+</head>
+<body>
+<div>
+<p>R: <input id="r" type="range" min="0" max="255"  value="255" step="1" onchange="szinez()"><span id="rErtek"></span></p>
+<p>G: <input id="g" type="range" min="0" max="255"  value="255" step="1" onchange="szinez()"><span id="gErtek"></span></p>
+<p>B: <input id="b" type="range" min="0" max="255"  value="255" step="1" onchange="szinez()"><span id="bErtek"></span></p>
+<p> Aktuális háttérszín: <span id="hexa"></span></p>
+</div>
+</body>	
+</html>

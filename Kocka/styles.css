@@ -1,0 +1,89 @@
+
+body {
+  background-image: url("cubes.jpg");
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+#tartalom {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+  width: 980px;
+}
+
+.kepkeret {
+  width: 290px;
+  float: right;
+  padding: 0px 5px 5px;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(227, 225, 233, 0.8);
+  border: solid 4px darkslategrey;
+}
+
+.kepkeret img {
+  width: 300px;
+  position: relative;
+  left: -5px;
+  border-bottom: 1px solid black;
+}
+
+h1,
+h2 {
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+p.kepfelirat {
+  font-size: 1.1em;
+  margin: 0px;
+  font-style: italic;
+  text-align: center;
+  line-height: 150%;
+}
+
+
+p {
+  text-indent: 20px;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link,
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+.kiemelt {
+	color: blue;
+	font-style: bold;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+	margin: auto;
+	border: solid 4px darkslategrey;	
+}
+

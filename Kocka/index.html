@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css"> 
+	<title>A kocka</title>
+</head>
+<body>
+  <div id="tartalom">
+    <h1>A kocka <a href="https://hu.wikipedia.org/wiki/Kocka" target="_blank">*</a></h1>
+	<div class="kepkeret">
+		<img src="kocka.gif" alt="A kocka" title="A kocka">
+		<p class="kepfelirat">A kocka</p>
+	</div>
+    <p>A kocka (vagy szabályos hexaéder) egy térbeli geometriai alakzat, egy speciális téglatest. 6 négyzet alakú lapja és 12 egyenlő hosszúságú éle van, amelyek 8 csúcsban találkoznak. A négyzet térbeli megfelelője. A kocka egy tetszőleges csúcsát összekötve az ebben a csúcsban összefutó négyzetlapok nem szomszédos csúcsaival, szabályos tetraédert kapunk. Egy ilyen tetraéder térfogata a kocka térfogatának egyharmadát teszi ki. A maradék négy egybevágó, nem szabályos gúla (szintén tetraéder) térfogata egyenként a kocka térfogatának hatoda. A kocka csúcsai ily módon két, egymáshoz képest középpontosan szimmetrikus szabályos tetraédert határoznak meg. (Ezek metszete oktaéder.) A kocka hat négyzet alapú gúlára osztható úgy, hogy szimmetriaközéppontját a csúcsokkal összekötő szakaszok mentén szétvágjuk. Ha ezeket egy másik kocka lapjaihoz illesztjük, akkor rombododekaédert kapunk. A kocka dodekaéderbe írható úgy, hogy a kocka csúcsai a dodekaéder csúcsaira illeszkednek, és a kocka élei a dodekaéder lapátlói.</p>
+    <h2>Szimmetriái</h2>
+    <P>A kockának</p>
+	<ul>
+    <li>három négyfogású <span class="kiemelt">forgástengelye</span> (szemben fekvő oldalak középpontjain át)</li>
+    <li>négy háromfogású forgástengelye (testátlók)</li>
+    <li>hat kétfogású forgástengelye (élfelező pontokon át)</li>
+    <li>kilenc <span class="kiemelt">szimmetriasíkja</span></li>
+    <li>egy <span class="kiemelt">szimmetriaközéppontja</span> (középpont)</li>
+	</ul>
+    <p>van. Az identitást leszámítva a négyfogású tengelyek három-három, a háromfogású tengelyek két-két szimmetriát adnak. Összesen a kocka szimmetriacsoportjának 48 eleme van. Ez a kocka- vagy oktaédercsoport.</p>
+    <h2>Matematikai összefüggések</h2>
+	<table>
+		<caption><b>Egy "a" élű kocka esetén</b></caption>
+		<tr><th>Tulajdonság</th><th>Képlet</th>
+		<tr><td>felszíne</td><td><img src="k1.svg"></td>
+		<tr><td>térfogata</td><td><img src="k2.svg"></td>
+		<tr><td>beírható gömb sugara</td><td><img src="k3.svg"></td>
+		<tr><td>köréírható gömb sugara</td><td><img src="k4.svg"></td>
+		<tr><td>éleit érintő gömb sugara</td><td><img src="k5.svg"></td>
+    </table>
+    <h2>Mértani arányok</h2>    
+    <p>A kockának 11 lényegesen különböző <a id="demo">testhálója</a> van. A lapok színezéséhez legalább 3 szín kell. A kocka az egyetlen szabályos test, amivel a tér hiánytalanul kitölthető. A szabályos poliéderek között egyedül neki vannak páros oldalszámú lapjai, így az egyetlen platóni test, ami zonoéder, vagyis aminek minden lapja középpontosan szimmetrikus.</p>	
+	<p id="kep" style="visibility:hidden"><img src="testhalok.jpg"></p>
+	<script>
+	document.getElementById("demo").onclick = function(){myFunction()};	
+	function myFunction() {	
+	  document.getElementById("kep").style.visibility = "visible";
+	}
+	</script>	
+  </div>
+</body>
+</html>

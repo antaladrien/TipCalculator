@@ -1,0 +1,62 @@
+body {
+	background-image: url("toboz.jpg");
+	background-repeat: repeat-y;
+	background-size: 100px;
+	font-family: Georgia;
+}
+
+table {
+	margin: auto;
+	width: 900px;
+	background-color: #277247;
+	border-spacing: 10px;
+	text-align: center;
+}
+
+#oszlop{width: 332px;}
+
+h1 {
+	color: white;
+	font-variant: small-caps;
+	font-size: 5.5em;
+	letter-spacing: 5px;
+}
+
+.hatter {
+	text-align: left;
+	background-color: #5dc25c;
+}
+
+#szoveg {padding: 20px 10px;}
+
+p {
+	text-align: justify;
+	text-indent: 15px;
+	line-height: 22px;
+}
+	
+h2 {
+	font-style: italic;
+	padding: 5px;
+	border-bottom: 5px dotted #277247;
+	border-left: 5px dotted #277247;
+}
+
+.mokus2 {
+	float: right;
+	width: 40%;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+a:link, a:visited {
+	color:white;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+a:hover {
+	background-color:white;
+	color:black;
+}
