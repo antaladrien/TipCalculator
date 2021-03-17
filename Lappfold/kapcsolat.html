@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="utf-8">
+		<meta name="author" content="Adrien Antal">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Lappföld</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="lapp.css">
+		<script language=JavaScript>
+			<!--
+			function kuld(){
+				document.form.action = 
+				"mailto:"+document.form.email.value;
+			}
+			-->
+		</script>
+    </head>
+	<body>
+	<div class="container">
+		<div class="row" id="banner">
+			<div class="col-12"></div>
+			<h1>Lappföld</h1>
+		</div>
+	
+	<div id="menu">
+		<ul>
+			<li><a href="lappfold_index.html">Lappföld</a></li>
+			<li><a href="lappfold_enontekio.html">Enontekiö</a></li>
+			<li><a href="lappfold_inari.html">Inari</a></li>
+			<li><a href="lappfold_rovaniemi.html">Rovaniemi</a></li>
+			<li style="float:right"><a class="active" href="kapcsolat.html">Kapcsolat</a></li>
+		</ul>
+	</div>
+	<main>
+	<div class="col-12" id="kapcsolat">
+	<fieldset>
+		<legend><h3>Kapcsolatfelvétel</h3></legend>
+		<form name="form" method="post" enctype="text/plain" onSubmit="kuld()">
+			<label>Email: </label><br>
+			<input type="email" name="email" id="email" placeholder="Ide kérem az emailcímet." size="30"><br><br>
+			Regisztrált: <br>
+			<label for="regIgen">Igen</label>
+			<input type="radio" name="reg" id="regIgen">
+			<label for="regNem">Nem</label>
+			<input type="radio" name="reg" id="regNem" checked><br><br>
+			<textarea rows="4" cols="50" placeholder="Kérem ide írja le észrevételeit!" id="eszrevetelek"></textarea><br><br>
+			Az űrlap a következő emailcímre lesz elküldve:<br>
+			<input type="text" name="email" placeholder= "matti@lappland.fi" size="30"><br><br>
+			<input type="button" value="KÜLDÉS" onclick="kuld()">
+		</form>
+	</fieldset>	
+	</div>
+	</main>
+	</div>
+	</body>
+</html>
