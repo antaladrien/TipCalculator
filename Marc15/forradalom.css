@@ -1,0 +1,102 @@
+body{
+    background-color:rgb(61, 138, 51); 
+    background-image: url(kepek/kokarda.png);
+    background-position: left top;
+    background-repeat: repeat-y;
+    background-size: 120px;
+}
+
+#tartalom{     
+    box-shadow: 0 0 10px black;
+    background-color: rgba(255, 2555, 255, 0.7);
+    width: 900px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 0 25px 0 25px;
+}
+
+#zaszlo{
+    width: 300px;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+
+#zaszlo-piros, #zaszlo-feher, #zaszlo-zold{
+    width:300px;
+    height: 50px;
+    position: absolute;
+}
+
+#zaszlo-piros{
+    background-color:rgb(196, 40, 40);
+    top:0;
+}
+
+#zaszlo-feher{
+    background-color:white;
+    top:50px;
+}
+
+#zaszlo-zold{
+    background-color: rgb(61, 138, 51);
+    top:100px;
+}
+
+h1, h2{
+    font-family: Verdana, sans-serif;
+    color: #b33333;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #b33333;
+    clear: both;
+}
+
+p{
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 1.5;
+}
+
+ol{
+    margin-left: 10px;
+}
+
+.kozepre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.torol{
+    clear: both;
+}
+
+form {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    background: #961414;
+    color: #fff;
+    line-height: 2em;
+}
+
+label {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+a{
+    color: #b33333;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
