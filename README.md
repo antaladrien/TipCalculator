@@ -1,1 +1,1 @@
-# TipCalculator
+# Web-Soterline-exercises
